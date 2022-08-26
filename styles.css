@@ -24,7 +24,7 @@ section{
 
 
 
-main{
+.main{
   
     background-color: hsl(216, 50%, 16%);
     width: 85%;
@@ -139,19 +139,19 @@ hr{
 }
 
 
-h5{
+.owner_name{
     font-weight: lighter;
     margin-left: 10px;
     color:hsl(215, 51%, 70%);
 }
 
 
-h5 span{
+.owner_name span{
     color: hsl(0, 0%, 100%);
 }
 
 
-h5 span:hover{
+.owner_name span:hover{
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
