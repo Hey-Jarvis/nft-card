@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;  
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+main{
+  
+    background-color: hsl(216, 50%, 16%);
+    width: 85%;
+    max-width: 400px;
+    padding: 10px 14px;
+    border-radius: 15px;
+    padding: 25px;
+    
+}
+
+.img-block{
+    height: 55%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: hsl(178, 100%, 50%);
+
+}
+
+.img-block:hover .original{
+    opacity: 0.55;
+}
+
+.original{
+    width: 100%;
+    display: block;
+    transition: opacity 250ms ease-in-out;
+    height: 100%;
+}
+
+
+.img-block:hover::after{
+    content: url(/images/icon-view.svg);
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 0.5 ease-in-out;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+h3{
+    color: hsl(0, 0%, 100%);
+    margin-top: 25px;
+}
+
+
+h3:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.info{
+    margin-left: 2px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    line-height: 25px;
+}
+
+
+.price{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+
+.coin{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    gap: 3px;
+}
+
+
+.days{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    gap: 3px;
+}
+
+
+.price img{
+    height: 15px;
+    width: 15px;
+    color:  hsl(213, 28%, 57%);
+}
+
+
+hr{
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid hsl(215, 51%, 70%);
+}
+
+
+.owner{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+
+h5{
+    font-weight: lighter;
+    margin-left: 10px;
+    color:hsl(215, 51%, 70%);
+}
+
+
+h5 span{
+    color: hsl(0, 0%, 100%);
+}
+
+
+h5 span:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.owner img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+}  
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    color: hsl(0, 0%, 100%);
+}
+
+footer>a{
+    color: #B9FFF8;
+}
