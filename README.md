@@ -42,4 +42,4 @@ Focusing on opacity, hover thats why i select this project for practising.
 
 ## Author
 
-- Website - [Shubham C](https://github.com/Hey-Jarvis)
+- Website - [Shubham R](https://github.com/Hey-Jarvis)
